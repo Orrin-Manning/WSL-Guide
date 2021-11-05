@@ -1,5 +1,9 @@
 # Normie's Guide to Installing Linux Within Windows Using WSL
 
+My attempt at onboarding Linux newbies into the community and helping them get
+their sea legs in the scary black box. Many men have written this guide before
+me, and many have written it better, but this one is mine. 
+
 ## Introduction
 
 Windows Subsystem for Linux (WSL), first released in 2016, is a compatibility
@@ -64,3 +68,27 @@ This command is much like the last one, but this time we are using the upgrade
 subcommand to update all packages on the machine to their latest available
 versions in the remote repositories. You will now be completely up to date and
 ready to install new software.
+
+### 5. Basics of Using a Command Line Interface
+
+WSL, unlike virtualization, does not provide you with a graphical interface for
+using Linux. Because of this, you will need some familiarity with using a
+command line interface to be able to use Linux with WSL. Here, I will list some
+of the most fundamental commands a user should know when starting out.
+
+#### pwd
+    
+pwd, or print working directory, prints the absolute path of the directory that
+you are currently working in. As you become more experience working in a CLI,
+you will not use this command so much because you will generally already know
+where you are in the filesystem based on the work you are doing. Many users will
+even encorporate the path of their working directory into their shell prompt,
+rendering the use of pwd redundant. However, when you are first starting out,
+this is a useful command when you need to get your barings on where you are in
+the system. 
+
+#### ls
+    
+ls, or list, prints the names of all files in the working directory. This basic
+command will remain useful to you for the rest of your life, as it is the
+fundamental method of viewing the contents of a directory. 
