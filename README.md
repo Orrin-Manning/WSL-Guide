@@ -1,4 +1,4 @@
-# Normie's Guide for Linux Within Windows with WSL
+# Normie's Guide to Installing Linux Within Windows with WSL
 
 ## Introduction
 
