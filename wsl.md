@@ -1,4 +1,4 @@
-# Installing Linux in Windows with WSL
+# Installing Linux Within Windows with WSL
 
 ## Introduction
 
@@ -34,14 +34,14 @@ This is the traditional starting point for new users. Ubuntu has a very large
 online community and plenty of resources and support for when things go wrong.
 For the sake of this document I will assume you are installing Ubuntu.
 
-### 3. Running Linux for the first time
+### 3. Running Linux for the First Time
 
 Open the start menu and find and you
 should find that Ubuntu has been added to your list of programs. Upon launching
 it, you will be prompted to set your username and password. Once these have been
 set, a setup script will run and you will arrive at a bash command prompt.
 
-### 4. Getting started
+### 4. Getting Started
 
 Now that you have the system set up, you'll want to get
 your package manager updated so you can start installing software and making the
