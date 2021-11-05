@@ -36,10 +36,10 @@ For the sake of this document I will assume you are installing Ubuntu.
 
 ### 3. Running Linux for the First Time
 
-Open the start menu and find and you
-should find that Ubuntu has been added to your list of programs. Upon launching
-it, you will be prompted to set your username and password. Once these have been
-set, a setup script will run and you will arrive at a bash command prompt.
+Open the start menu and you should find that Ubuntu has been added to your list
+of programs. Upon launching it, you will be prompted to set your username and
+password. Once these have been set, a setup script will run and you will arrive
+at a bash command prompt.
 
 ### 4. Getting Started
 
