@@ -76,9 +76,9 @@ using Linux. Because of this, you will need some familiarity with using a
 command line interface to be able to use Linux with WSL. Here, I will list some
 of the most fundamental commands a user should know when starting out.
 
-#### pwd (print working directory)
+#### `pwd` (print working directory)
     
-pwd, or print working directory, prints the absolute path of the directory that
+`pwd`, or print working directory, prints the absolute path of the directory that
 you are currently working in. As you become more experience working in a CLI,
 you will not use this command so much because you will generally already know
 where you are in the filesystem based on the work you are doing. Many users will
@@ -87,7 +87,7 @@ rendering the use of pwd redundant. However, when you are first starting out,
 this is a useful command when you need to get your barings on where you are in
 the system. 
 
-#### ls (list)
+#### `ls` (list)
     
 `ls` prints the names of all files in the working directory. This basic command
 will remain useful to you for the rest of your life, as it is the fundamental
