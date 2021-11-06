@@ -76,7 +76,7 @@ using Linux. Because of this, you will need some familiarity with using a
 command line interface to be able to use Linux with WSL. Here, I will list some
 of the most fundamental commands a user should know when starting out.
 
-#### pwd
+#### pwd (print working directory)
     
 pwd, or print working directory, prints the absolute path of the directory that
 you are currently working in. As you become more experience working in a CLI,
@@ -87,8 +87,17 @@ rendering the use of pwd redundant. However, when you are first starting out,
 this is a useful command when you need to get your barings on where you are in
 the system. 
 
-#### ls
+#### ls (list)
     
-ls, or list, prints the names of all files in the working directory. This basic
-command will remain useful to you for the rest of your life, as it is the
-fundamental method of viewing the contents of a directory. 
+`ls` prints the names of all files in the working directory. This basic command
+will remain useful to you for the rest of your life, as it is the fundamental
+method of viewing the contents of a directory. The `ls` command can also be
+modified by useful options. For example, `ls -a` will list all files, including
+all "hidden" files. Hidden files are files that begin with a dot '.' and are not
+normally listed by the regular `ls` command. `ls -l` will give your a longer
+listing of the files, including information such as permissions, ownership, and
+filesize. These options can be combined with `ls -la` to make ls print a long
+listing of all files, including the hidden ones.
+
+`ls` can also list files of other directories in your filesystem if your provide
+the directory's path.
