@@ -76,7 +76,17 @@ using Linux. Because of this, you will need some familiarity with using a
 command line interface to be able to use Linux with WSL. Here, I will list some
 of the most fundamental commands a user should know when starting out.
 
-#### `pwd` (print working directory)
+#### `man` (Manual)
+
+This command is the key to the kingdom when it comes to learning how to use
+Linux. You can use the `man` command to bring up the manual for many aspect of
+your system, such as commands, files, configurations, etc. As I was told when I
+was first learning how to use Linux, "man is the man, man". A manual page will
+give you a comprehensive breakdown of the usage of a command, all the options
+available to you, any configurations that are available for altering the
+behavior of a command, and much more. Read the fucking manual, nerd.
+
+#### `pwd` (Print Working Directory)
     
 `pwd`, or print working directory, prints the absolute path of the directory that
 you are currently working in. As you become more experience working in a CLI,
@@ -87,7 +97,7 @@ rendering the use of pwd redundant. However, when you are first starting out,
 this is a useful command when you need to get your barings on where you are in
 the system. 
 
-#### `ls` (list)
+#### `ls` (List)
     
 `ls` prints the names of all files in the working directory. This basic command
 will remain useful to you for the rest of your life, as it is the fundamental
@@ -100,4 +110,16 @@ filesize. These options can be combined with `ls -la` to make ls print a long
 listing of all files, including the hidden ones.
 
 `ls` can also list files of other directories in your filesystem if your provide
-the directory's path.
+the directory's path. For example, if you were to type `ls ~/Documents`, `ls`
+would print all the files in your Documents directory. Note: the tilde(~)
+character is a bash shorthand for your home directory, so ~/Documents would
+evaluate to /home/your-user-name/Documents.
+
+#### `cd` (Change Directory)
+
+The `cd` command allows you to change your working directory. This command is
+used for navigating the filesystem. Much like `ls` command in the last example,
+you will simply need to provide `cd` with the path of the directory you would
+like to change into. For example, if you were to have a 'git' directory in your
+home directory that contained some 'project' directory, you  could change into
+that project directory with the command `cd ~/git/project`.
